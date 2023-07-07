@@ -1,0 +1,122 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.box{
+  height: 100vh;
+  width: 100%;
+  /* background-color: darkblue; */
+}
+
+.boxholder{
+  height: 100vh;
+  width: 100%;
+  /* background-color: rgb(204, 43, 43); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.boxtop{
+  height: 20vh;
+  width:90% ;
+  background-color: cornflowerblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.boxtop input{
+  height: 50px;
+  width: 200px;
+  gap: 20px;
+  font-size: 15px;
+  /* border: 3px solid  ; */
+}
+
+
+
+.boxdown{
+  height: 80vh;
+  width:90% ;
+  background-color: white;
+ /* margin: 10px; */
+ 
+}
+
+.boxdown button{
+  height: 60px;
+  width: 500px;
+  border: none;
+  margin-left: 30%;
+  background-color: cornflowerblue;
+  color: black;
+  font-size: 20px;
+  border: 3px solid cornflowerblue;
+  margin-top: 10px;
+}
+
+.input{
+  height:80% ;
+  width: 23%;
+  background-color: white;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  position: relative;
+  border: 3px solid cornflowerblue;
+}
+
+.circle{
+  height: 100px;
+  width: 130px;
+  background-color: white;
+  border-radius: 100%;
+  position: relative;
+  left: 65px;
+  top: 15px;
+  border: 3px solid cornflowerblue;
+  
+}
+
+.circle h2{
+  color: cornflowerblue;
+  font-size: 15px;
+  position: relative;
+  right: 60px;
+  font-family: monospace;
+  bottom: 30px;
+}
+
+.circle h1{
+  color: cornflowerblue;
+  font-size: 20px;
+  position: relative;
+  left: 160px;
+  font-family: monospace;
+  bottom: 20px ;
+}
+
+ .head{
+  width: 285px;
+  border: 2px solid cornflowerblue;
+  position: relative;
+  top:100px ;
+  right: 70px;
+}
+
+
+
+.text{
+  height: 210px;
+  width: 250px;
+  background-color: cornflowerblue;
+  position: relative;
+  left: 10px;
+  font-size: 15px;
+  font-family: monospace;
+}
